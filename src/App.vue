@@ -1,14 +1,18 @@
 <template>
-  <computedProperties />
+  <reactiveComponentExpose />
 </template>
 
 <script>
-import computedProperties from './components/vue3-computed-properties.vue'
+// import computedProperties from './components/vue3-computed-properties.vue'
+// import reactiveComponent from './components/vue3-reactive.vue'
+import reactiveComponentExpose from './components/vue3-reactive-expose.vue'
 
 export default {
   name: 'App',
   components: {
-    computedProperties
+    // computedProperties,
+    // reactiveComponent,
+    reactiveComponentExpose
   }
 }
 </script>
