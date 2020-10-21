@@ -1,5 +1,5 @@
 <template>
-  <watchComponent />
+  <TeleportDemo />
 </template>
 
 <script>
@@ -8,7 +8,12 @@
 // import reactiveComponentExpose from './components/vue3-reactive-expose.vue'
 // import watchComponent from './components/vue3-watch-example.vue'
 // import watchEffectComponent from './components/vue3-watch-effect.vue'
-import watchComponent from './components/vue3-watch-effect.vue'
+// import watchComponent from './components/vue3-watch-effect.vue'
+// import SharingStateComponent from './components/vue3-share-state.vue'
+// import SharingStateOptimizeComponent from './components/vue3-share-state-optimize.vue'
+// import SuspenseDemo from './pages/vue3-suspense'
+// import SuspenseError from './pages/vue3-suspense-error'
+import TeleportDemo from './pages/teleport-demo'
 
 export default {
   name: 'App',
@@ -18,7 +23,12 @@ export default {
     // reactiveComponentExpose,
     // watchComponent,
     // watchEffectComponent,
-    watchComponent
+    // watchComponent,
+    // SharingStateComponent,
+    // SharingStateOptimizeComponent,
+    // SuspenseDemo,
+    // SuspenseError,
+    TeleportDemo
   }
 }
 </script>

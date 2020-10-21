@@ -16,7 +16,7 @@ export default {
 
     watch(searchInput, (newVal, oldVal) => {
       results.value = eventApi.getEventCount(searchInput.value)
-    })
+    }, { immediate: true })
 
     return { searchInput, results }
   }

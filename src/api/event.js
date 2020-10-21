@@ -1,6 +1,12 @@
 const eventApi = {
   getEventCount: function(searchInput) {
-    return searchInput.length
+    console.log('counting...')
+    return new Promise(resolve => {
+      setTimeout(() => {
+        resolve(searchInput.length)
+        console.log('count down')
+      }, 500)
+    })
   }
 }
 
